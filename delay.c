@@ -1,3 +1,6 @@
+//Code by Aadhitya G
+//Timer based delay function (generates delay in milliseconds)
+
 #include <lpc21xx.h>
 #include "setup.h"
 
