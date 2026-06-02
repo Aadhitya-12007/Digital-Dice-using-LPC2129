@@ -1,3 +1,6 @@
+//Code by Aadhitya G
+//Contains the 16x2 Alphanumeric LCD configuration and display functions
+
 #include <lpc21xx.h>
 #include "setup.h"
 
