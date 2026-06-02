@@ -1,3 +1,6 @@
+//Code by Aadhitya G
+//Holds the UART initialization function, and a function to receive a byte
+
 #include <lpc21xx.h>
 #include "setup.h"
 
