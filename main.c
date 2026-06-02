@@ -1,3 +1,6 @@
+//Code by Aadhitya G
+//Main program, along with ISR and EINT init functions
+
 #include <lpc21xx.h>
 #include "setup.h"
 
