@@ -24,7 +24,7 @@ This repository is organized into a clean, modular 5-file architecture (excludin
 | 📄 **`main.c`** | Contains the core application loop, Interrupt Service Routines (ISRs) for Players 1 & 2, and the CGRAM lookup tables for drawing the dice faces. |
 | 📄 **`LCD_functions.c`** | The abstraction layer for the display. Handles LCD initialization, sending commands, writing raw data, and printing strings. |
 | 📄 **`delay.c`** | Contains precise, hardware timer-based (Timer 0) delay functions used for LCD timing and debouncing. |
-| 📄 **`UART_config.c`** | Handles UART initialization and configuration for serial debugging, logging, or future extensions. |
+| 📄 **`UART_config.c`** | Handles UART initialization and configuration for receiving the number (byte). |
 | 📄 **`Setup.h`** | The central header file linking the modules together. Contains necessary macros, port definitions, and function prototypes. |
 
 ## Hardware Setup & Wiring
